@@ -289,14 +289,21 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
-        @media screen and (max-width: 768px) {
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
           color: black;
           font-family: "Playfair Display", Georgia, serif; }
+        @media screen and (max-width: 768px) {
+         #colorlib-hero .flexslider .slider-text > .slider-text-inner, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+            text-align: left;
+            background:aliceblue;
+            color: black;
+            opacity: 0.8;
+            
+            ;
+          } }
+
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -629,11 +636,15 @@ body.offcanvas {
     margin-bottom: 20px; }
     .services .icon2 i {
       font-size: 30px;
-      color: #2c98f0; }
+      color: #2c98f0;
+      display: flex;
+      justify-content: center; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
-    font-weight: 500; }
+    font-weight: 500;
+    display: flex;
+    justify-content: center;}
   .services.color-2 {
     border-bottom: 2px solid #ec5453; }
     .services.color-2 .icon2 i {
@@ -1050,6 +1061,14 @@ body.offcanvas {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center; }
+
+  @media screen and (max-width: 768px) {
+    .colorlib-counters {
+      padding: 3em 0;
+      background-size: cover;
+      background-attachment: local;
+      }
+  }
   .colorlib-counters .overlay {
     z-index: 0;
     position: absolute;
