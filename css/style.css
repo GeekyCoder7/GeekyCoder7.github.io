@@ -795,11 +795,11 @@ body.offcanvas {
     .progress-bar.color-1 span {
       color: #2c98f0; }
   .progress-bar.color-2 {
-    background: #ec5453; }
+    background: #DC654C; }
     .progress-bar.color-2:after {
-      background: #ec5453; }
+      background: #DC654C; }
     .progress-bar.color-2 span {
-      color: #ec5453; }
+      color: #DC654C; }
   .progress-bar.color-3 {
     background: #f9bf3f; }
     .progress-bar.color-3:after {
@@ -822,17 +822,32 @@ body.offcanvas {
     background: #4054b2; }
     .progress-bar.color-6:after {
       background: #4054b2; }
-
+      .progress-bar.color-6 span {
+        color: #4054b2; }
   .progress-bar.color-7 {
      background: #00ffff; }
   .progress-bar.color-7:after {
       background: #00ffff; }
-
+      .progress-bar.color-7 span {
+        color: #00ffff; }
   .progress-bar.color-8 {
      background: #4edf7e; }
    .progress-bar.color-8:after {
      background: #4edf7e; }
-
+     .progress-bar.color-8 span {
+      color: #4edf7e; }
+     .progress-bar.color-9 {
+      background: #EEA190; }
+    .progress-bar.color-9:after {
+      background: #EEA190; }
+      .progress-bar.color-9 span {
+        color: #EEA190; }
+      .progress-bar.color-10 {
+        background: #ec5453; }
+      .progress-bar.color-10:after {
+        background: #ec5453; }
+        .progress-bar.color-10 span {
+          color: #ec5453; }
 
 .colorlib-feature {
   text-align: left;
