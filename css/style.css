@@ -849,6 +849,13 @@ body.offcanvas {
         .progress-bar.color-10 span {
           color: #ec5453; }
 
+          .progress-bar.color-11 {
+            background: #fcde18; }
+          .progress-bar.color-11:after {
+            background: #fcde18; }
+            .progress-bar.color-11 span {
+              color: #fcde18; }
+
 .colorlib-feature {
   text-align: left;
   width: 100%;
