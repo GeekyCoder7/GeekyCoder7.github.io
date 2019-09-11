@@ -1,78 +1,117 @@
 {
     "minVersion": "0.1",
-    "class": "DepictionTabView",
+    "headerImage": "https://geekycoder7.github.io/repo/api/Packages/com.nazarethkeshishian.anghamiplus/Icon/AnghamiPlusLogo.png",
+    "tintColor": "#dd3d93",
     "tabs": [
-        {
-            "class": "DepictionStackView",
-            "tabname": "Details",
-            "views": [
-                {
-                    "class": "DepictionSubheaderView",
-                    "useBoldText": true,
-                    "title": "Anghami+",
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "useSpacing": true,
-                    "markdown": "Get Anghami Plus features!"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot0",
-                            "url": ""
-                        }
-                    ],
-                    "class": "DepictionScreenshotsView",
-                    "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6
-                },
-                {
-                    "markdown": "# Compatible with iOS 10, 11 & 12\r\n## Anghami+ adds all plus features to non-plus anghami users, including:\r\n- Remove annoying ads\r\n- Rewind, Scrub & Repeat [Coming Soon]\r\n- Unlock Next/Previous buttons [Coming Soon]\r\n- Download Songs & Play Them Offline [Coming Soon]\r\n- Unlock Song Lyrics [Coming Soon]\r\n- High Audio Quality [Coming Soon]",
-                    "class": "DepictionMarkdownView",
-                    "useBoldText": true,
-                    "title": "markdown-description",
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "text": "1.0",
-                    "class": "DepictionTableTextView",
-                    "title": "Version"
-                },
-                {
-                    "text": "09-11-2019",
-                    "class": "DepictionTableTextView",
-                    "title": "Released"
-                },
-                {
-                    "text": "Free",
-                    "class": "DepictionTableTextView",
-                    "title": "Price"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "text": "Nazareth Keshishian",
-                    "class": "DepictionTableTextView",
-                    "title": "Developer"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                }
-            ]
-        }
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "title": "Get Anghami Plus features!",
+            "useBoldText": true,
+            "useBottomMargin": false,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "itemCornerRadius": 6,
+            "itemSize": "{160, 346.4533333333333}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://repo-cdn.dynastic.co/87966724552392705.3a0a6aca8197f4f398e78aba28d45801-750?size=480",
+                "fullSizeURL": "https://repo.dynastic.co/data/static/version/203418116800118784/203418117139857412"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "markdown": "*Compatible with iOS 10, 11 & 12.*\n\nAnghami+ adds all plus features to non-plus anghami users.\n\n### Features\n\n- Remove annoying ads\r\n- Rewind, Scrub & Repeat [Coming Soon]\r\n- Unlock Next/Previous buttons [Coming Soon]\r\n- Download Songs & Play Them Offline [Coming Soon]\r\n- Unlock Song Lyrics [Coming Soon]\r\n- High Audio Quality [Coming Soon]",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Latest Version",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "1.0",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Released",
+            "text": "2019-9-11",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Price",
+            "text": "Free",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "GeekyCoder7's Repo",
+            "action": "https://geekycoder7.github.io/repo/",
+            "class": "DepictionTableButtonView"
+          },
+          {
+            "spacing": 12,
+            "class": "DepictionSpacerView"
+          },
+          {
+            "title": "Developer",
+            "text": "Nazareth Keshishian",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "spacing": 12,
+            "class": "DepictionSpacerView"
+          },
+          {
+            "URL": "https://geekycoder7.github.io/repo/CydiaIcon.png",
+            "width": 44,
+            "height": 27,
+            "alignment": 1,
+            "cornerRadius": 0,
+            "class": "DepictionImageView"
+          },
+          {
+            "spacing": 20,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+      {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 1.0",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using Anghami+! We’ve been working hard to make your experience even better.\n- Initial Release.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-11</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+        ],
+        "class": "DepictionStackView"
+      }
     ],
-    "tintColor": "#0657bb",
-    "headerImage": "https://geekycoder7.github.io/repo/api/Packages/com.nazarethkeshishian.anghamiplus/Icon/AnghamiPlusLogo.png"
-}
+    "class": "DepictionTabView"
+  }
