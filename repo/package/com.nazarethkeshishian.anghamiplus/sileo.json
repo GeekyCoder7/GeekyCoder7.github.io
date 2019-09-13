@@ -25,7 +25,7 @@
             "class": "DepictionScreenshotsView"
           },
           {
-            "markdown": "*Compatible with iOS 10, 11 & 12.*\n\nAnghami+ adds all plus features to non-plus anghami users.\n\n### Features\n\n- Remove annoying ads\r\n- Rewind, Scrub & Repeat [Coming Soon]\r\n- Unlock Next/Previous buttons [Coming Soon]\r\n- Download Songs & Play Them Offline [Coming Soon]\r\n- Unlock Song Lyrics [Coming Soon]\r\n- High Audio Quality [Coming Soon]",
+            "markdown": "*Compatible with iOS 10, 11 & 12.*\n\nAnghamiPlus adds all plus features to non-plus anghami users.\n\n### Features\n\n- Remove annoying ads\r\n- Rewind, Scrub & Repeat [Coming Soon]\r\n- Unlock Next/Previous buttons [Coming Soon]\r\n- Download Songs & Play Them Offline [Coming Soon]\r\n- Unlock Song Lyrics [Coming Soon]\r\n- High Audio Quality [Coming Soon]",
             "useSpacing": true,
             "class": "DepictionMarkdownView"
           },
@@ -38,7 +38,7 @@
           },
           {
             "title": "Version",
-            "text": "1.0",
+            "text": "0.1",
             "class": "DepictionTableTextView"
           },
           {
@@ -91,13 +91,13 @@
         "tabname": "Changelog",
         "views": [
           {
-            "title": "Version 1.0",
+            "title": "Version 0.1",
             "useBoldText": true,
             "useBottomMargin": true,
             "class": "DepictionSubheaderView"
           },
           {
-            "markdown": "Thanks for using Anghami+! We’ve been working hard to make your experience even better.\n- Initial Release.",
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Initial Release.",
             "useSpacing": false,
             "class": "DepictionMarkdownView"
           },
