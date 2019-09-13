@@ -1,15 +1,15 @@
 Package: com.nazarethkeshishian.anghamiplus
-Version: 0.0.1
+Version: 0.2
 Section: Tweaks
 Maintainer: Nazareth Keshishian <nazokeshishian@gmail.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files//AnghamiPlus/com.nazarethkeshishian.anghamiplus_0.0.1_iphoneos-arm.deb
-Size: 3158
+Filename: Files//AnghamiPlus/com.nazarethkeshishian.anghamiplus_0.2_iphoneos-arm.deb
+Size: 3912
 Installed-Size: 152
-MD5sum: 47a70431ef5a66fb21231a1e7c876348
-SHA1: d2aed7730d57191d2a6b8160020ef995dce07e5f
-SHA256: 4c84ab592a0b598b0a79c011e475aa616da153a5e43670edbf989bc7f91939bb
+MD5sum: 8feae3217510784b9dac97beaede894d
+SHA1: a78e0f9e9d6c28c91698f71624fcdaabd4f0ae01
+SHA256: ab51886304346a0b6174f32ab2fdfff0692aba934cdf0ac6d588ab9eb93cf795
 Description: Get Anghami Plus features!
 Name: AnghamiPlus
 Author: Nazareth Keshishian <nazokeshishian@gmail.com>
