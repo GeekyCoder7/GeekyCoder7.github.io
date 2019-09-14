@@ -13,7 +13,7 @@
             "class": "DepictionSubheaderView"
           },
           {
-            "markdown": "*Compatible with iOS 10, 11 & 12.*\n\nAnghamiPlus adds all plus features to non-plus anghami users.\n\n### Features\n\n- Remove annoying ads\n- Rewind, Scrub music\n- Unlock Next/Previous buttons\n- No daily limit listening the same song or songs from the same artist\n\n ##### \n### Coming Soon\n\n- Download Songs & Play Them Offline\n- Unlock Song Lyrics\n",
+            "markdown": "*Compatible with iOS 10, 11 & 12.*\n\nAnghamiPlus adds all plus features to non-plus anghami users.\n\n### Features\n\n- Remove annoying ads\n- Rewind, Scrub & Repeat music\n- Unlock Next/Previous buttons\n- No daily limit listening the same song or songs from the same artist\n\n ##### \n### Coming Soon\n\n- Download Songs & Play Them Offline\n- Unlock Song Lyrics\n",
             "useSpacing": true,
             "class": "DepictionMarkdownView"
           },
