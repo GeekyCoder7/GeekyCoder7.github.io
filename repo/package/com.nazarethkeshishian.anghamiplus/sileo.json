@@ -38,12 +38,12 @@
           },
           {
             "title": "Version",
-            "text": "0.3",
+            "text": "0.4",
             "class": "DepictionTableTextView"
           },
           {
             "title": "Released",
-            "text": "2019-9-14",
+            "text": "2019-9-16",
             "class": "DepictionTableTextView"
           },
           {
@@ -90,6 +90,25 @@
       {
         "tabname": "Changelog",
         "views": [
+          {
+            "title": "Version 0.4",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Play music in offline mode (if music is cached)\n- Remove 'No internet connection' alerts\n",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-14</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
           {
             "title": "Version 0.3",
             "useBoldText": true,

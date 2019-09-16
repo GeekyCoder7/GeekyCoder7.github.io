@@ -1,4 +1,5 @@
 Generate Packages file
+rm Packages
 ./dpkg-scanpackages Files /dev/null > Packages
 
 
