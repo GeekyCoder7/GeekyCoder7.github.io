@@ -33,6 +33,11 @@ body {
   color: #777777;
   background: url(../img/body-bg.png) no-repeat center; }
 
+  @media only screen and (max-width: 992px) {
+  #logo{
+      display: none;
+  }
+}
 h1,
 h2,
 h3,
