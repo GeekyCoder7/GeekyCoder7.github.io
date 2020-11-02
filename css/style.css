@@ -223,6 +223,12 @@ button:focus {
   background: #ffffff; }
   .header_area .menu_nav {
     width: 100%; }
+
+  @media (min-width: 992px){
+    .header_area .navbar {
+      /* height: 190px; */
+    }
+  }
   .header_area .navbar {
     background: transparent;
     padding: 0px;
@@ -2438,6 +2444,7 @@ h6 {
 /* Start About Us Area css
 ============================================================================================ */
 .about_area {
+  padding-top: 20px;
   position: relative; }
   .about_area .main_title {
     margin-bottom: 0px; }
@@ -2473,6 +2480,7 @@ h6 {
 /* Start Features Area css
 ============================================================================================ */
 .features_area {
+  padding-top: 20px;
   padding-bottom: 170px; }
   @media (max-width: 1199px) {
     .features_area {
@@ -2624,6 +2632,7 @@ h6 {
 /* Start Portfolio Area css
 ============================================================================================ */
 .portfolio_area {
+  padding-top: 20px;
   padding-bottom: 120px; }
   @media (max-width: 991px) {
     .portfolio_area {
@@ -2985,8 +2994,7 @@ h6 {
     margin-left: 0px; }
 
   .header_area .navbar-collapse {
-    max-height: 340px;
-    overflow-y: scroll; }
+    max-height: 370px; }
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
     padding: 0px 15px; }
@@ -3314,6 +3322,48 @@ h6 {
       margin-bottom: 0; }
     .footer_area .footer_bottom a {
       color: #854fee; }
+
+
+  .back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+  color: #fff;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);;
+  opacity: 0.75;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  opacity: 1;
+  color: #fff;
+}
 
 /* End Footer Area css
 ============================================================================================ */
