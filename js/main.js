@@ -27,6 +27,8 @@
   
           if ($(this).parents('.nav-menu, .mobile-nav').length) {
             document.querySelector('#navbarSupportedContent').classList.remove('show');
+            var nav_btn = $("#nav-btn")
+            nav_btn.attr("aria-expanded", "false");
             $('.nav-menu .active, .mobile-nav .active').removeClass('active');
             $(this).closest('li').addClass('active');
 
