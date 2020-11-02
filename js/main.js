@@ -26,8 +26,10 @@
           }, 1500, 'easeInOutExpo');
   
           if ($(this).parents('.nav-menu, .mobile-nav').length) {
+            document.querySelector('#navbarSupportedContent').classList.remove('show');
             $('.nav-menu .active, .mobile-nav .active').removeClass('active');
             $(this).closest('li').addClass('active');
+
           }
   
           if ($('body').hasClass('mobile-nav-active')) {
