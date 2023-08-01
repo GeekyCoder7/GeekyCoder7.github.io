@@ -1,0 +1,19 @@
+Package: com.nazarethkeshishian.anghamiplus
+Version: 0.4.1
+Section: Tweaks
+Maintainer: Nazareth Keshishian <nazokeshishian@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files//AnghamiPlus/com.nazarethkeshishian.anghamiplus_0.4.1_iphoneos-arm.deb
+Size: 7692
+Installed-Size: 152
+MD5sum: 8f3cbb237ad089360329c389de6833c3
+SHA1: 05c53be929c6fb8c46e98a34f1b9b43abdf1af06
+SHA256: 78f04773227e277fd4970d7a0401cd2d92b374614c482fbfdf1aa9658624e495
+Description: Get Anghami Plus features!
+Name: AnghamiPlus
+Author: Nazareth Keshishian <nazokeshishian@gmail.com>
+Homepage: https://twitter.com/@EbnTuring
+Depiction: https://geekycoder7.github.io/repo/package/com.nazarethkeshishian.anghamiplus/index.html
+SileoDepiction: https://geekycoder7.github.io/repo/package/com.nazarethkeshishian.anghamiplus/sileo.json
+Icon: https://github.com/GeekyCoder7/GeekyCoder7.github.io/blob/master/repo/api/Packages/com.nazarethkeshishian.anghamiplus/Icon/anghami-logo-circle.png?raw=true

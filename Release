@@ -1,0 +1,8 @@
+Origin: GeekyCoder7's repo
+Label: GeekyCoder7's repo
+Suite: stable
+Version: 0.2
+Codename: GeekyCoder7Repo
+Architectures: iphoneos-arm
+Components: main
+Description: GeekyCoder7's Cydia Repository

@@ -1,0 +1,193 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://geekycoder7.github.io/repo/api/Packages/com.nazarethkeshishian.anghamiplus/Icon/AnghamiPlusLogo.png",
+    "tintColor": "#dd3d93",
+    "tabs": [
+      {
+        "tabname": "Details",
+        "views": [
+          {
+            "title": "Get Anghami Plus features!",
+            "useBoldText": true,
+            "useBottomMargin": false,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "*Compatible with iOS 10, 11, 12 & 13.*\n\nAnghamiPlus adds all plus features to non-plus anghami users.\n\n### Features\n\n- Removes annoying ads\n- Allows Rewind, Scrub & Repeat music\n- Unlocks Next/Previous buttons\n- High Audio Quality (predefined)\n- No daily limit listening the same song or songs from the same artist\n- Play music in offline mode (if music is cached)\n- Removes 'No internet connection' alerts and status bar\n- Removes 'PLUS' tab and replaces with 'Mixtapes' tab. You can now make your mixtapes for free!\n\n ##### \n### Coming Soon\n\n- Download Songs\n- Unlocks Song Lyrics\n",
+            "useSpacing": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "itemCornerRadius": 6,
+            "itemSize": "{160, 346.4533333333333}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://geekycoder7.github.io/repo/package/com.nazarethkeshishian.anghamiplus/anghami_screenshot_0.png",
+                "fullSizeURL": "https://geekycoder7.github.io/repo/package/com.nazarethkeshishian.anghamiplus/anghami_screenshot_0.png"
+              }
+            ],
+            "class": "DepictionScreenshotsView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Latest Version",
+            "class": "DepictionHeaderView"
+          },
+          {
+            "title": "Version",
+            "text": "0.4.1",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Released",
+            "text": "2019-9-20",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "title": "Price",
+            "text": "Free",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "GeekyCoder7's Repo",
+            "action": "https://geekycoder7.github.io/repo/",
+            "class": "DepictionTableButtonView"
+          },
+          {
+            "spacing": 12,
+            "class": "DepictionSpacerView"
+          },
+          {
+            "title": "Developer",
+            "text": "Nazareth Keshishian",
+            "class": "DepictionTableTextView"
+          },
+          {
+            "spacing": 12,
+            "class": "DepictionSpacerView"
+          },
+          {
+            "URL": "https://geekycoder7.github.io/repo/CydiaIcon.png",
+            "width": 44,
+            "height": 27,
+            "alignment": 1,
+            "cornerRadius": 0,
+            "class": "DepictionImageView"
+          },
+          {
+            "spacing": 20,
+            "class": "DepictionSpacerView"
+          }
+        ],
+        "class": "DepictionStackView"
+      },
+      {
+        "tabname": "Changelog",
+        "views": [
+          {
+            "title": "Version 0.4.1",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Removes 'No internet connection' status bar\n- Removes 'PLUS' tab and replaces with 'Mixtapes' tab. You can now make your mixtapes for free!",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-20</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Version 0.4",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Play music in offline mode (if music is cached)\n- Remove 'No internet connection' alerts\n",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-17</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Version 0.3",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Repeat music\n- High Audio Quality (predefined)\n",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-14</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Version 0.2",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Blocking ads fixed\n- Rewind, Scrub music added\n- Unlocks Next/Previous buttons\n- No daily limit listening the same song or songs from same artist",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-13</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          },
+          {
+            "title": "Version 0.1",
+            "useBoldText": true,
+            "useBottomMargin": true,
+            "class": "DepictionSubheaderView"
+          },
+          {
+            "markdown": "Thanks for using AnghamiPlus! We’ve been working hard to make your experience even better.\n- Initial Release.",
+            "useSpacing": false,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2019-9-11</small>",
+            "useRawFormat": true,
+            "class": "DepictionMarkdownView"
+          },
+          {
+            "class": "DepictionSeparatorView"
+          }
+        ],
+        "class": "DepictionStackView"
+      }
+    ],
+    "class": "DepictionTabView"
+  }
